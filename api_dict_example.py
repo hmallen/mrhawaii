@@ -1,6 +1,5 @@
 # Example dictionary for reading data into
 
-from pprint import pprint
 market_data = {
     'bid': 0,
     'ask': 0,
@@ -14,5 +13,6 @@ market_data = {
 # Finally, you can use pprint instead of print to make output look more
 # readable on the command line
 
+from pprint import pprint
 
 pprint(market_data)
